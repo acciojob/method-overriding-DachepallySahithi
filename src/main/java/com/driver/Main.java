@@ -8,7 +8,7 @@ class A{
 }
 class B extends A{
     public String meth() {
-
+    @Override
         return "Method is overridden in Extended class B";
     }
 }
